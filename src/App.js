@@ -1,11 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import React , {useState} from "react";
+import Form from './components/Form';
+import ToDoList from './components/ToDoList';
 
 function App() {
+
+  const[inputText,setInputText] = useState("");
+  const[todos, setTodos] = useState([]);
+
   return (
     <div className="App">
-      <h1>Hola React!</h1>
-    </div>
+<header>
+      <h1>RememberMe!</h1>
+    </header> 
+    <Form inputText={inputText} todos={todos} setTodos={setTodos}  setInputText={setInputText}/>   
+    <ToDoList  todos={todos}/>
+    </div>  
+    
   );
 }
 
