@@ -185,7 +185,7 @@ select {
   margin:auto 0;
   position: relative;
   text-align: center;
-  width: 25vh;
+  width: 45vh;
   top: 0vh;
   left: 0vh;
 
@@ -195,7 +195,7 @@ select {
   text-align: center;
   width: 15vh;
   transition: .25s;
-
+  src: url(https://www.mercadolibre.com.ar/brandprotection/enforcement/images?src=meli-logo.png);
 }
 
 #mlLogo img:hover{
