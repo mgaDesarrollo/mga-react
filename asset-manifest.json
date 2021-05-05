@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mga-react-todos/static/css/main.fd88963b.chunk.css",
+    "main.js": "/mga-react-todos/static/js/main.09f4d2d7.chunk.js",
+    "main.js.map": "/mga-react-todos/static/js/main.09f4d2d7.chunk.js.map",
+    "runtime-main.js": "/mga-react-todos/static/js/runtime-main.6aead970.js",
+    "runtime-main.js.map": "/mga-react-todos/static/js/runtime-main.6aead970.js.map",
+    "static/js/2.c9dad5f3.chunk.js": "/mga-react-todos/static/js/2.c9dad5f3.chunk.js",
+    "static/js/2.c9dad5f3.chunk.js.map": "/mga-react-todos/static/js/2.c9dad5f3.chunk.js.map",
+    "static/js/3.4a6ae17a.chunk.js": "/mga-react-todos/static/js/3.4a6ae17a.chunk.js",
+    "static/js/3.4a6ae17a.chunk.js.map": "/mga-react-todos/static/js/3.4a6ae17a.chunk.js.map",
+    "index.html": "/mga-react-todos/index.html",
+    "static/css/main.fd88963b.chunk.css.map": "/mga-react-todos/static/css/main.fd88963b.chunk.css.map",
+    "static/js/2.c9dad5f3.chunk.js.LICENSE.txt": "/mga-react-todos/static/js/2.c9dad5f3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6aead970.js",
+    "static/js/2.c9dad5f3.chunk.js",
+    "static/css/main.fd88963b.chunk.css",
+    "static/js/main.09f4d2d7.chunk.js"
+  ]
+}
