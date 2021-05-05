@@ -49,7 +49,7 @@ const getLocalTodos=()=>{
   return (
     <div className="App">
 <header>
-      <h1>Remember.Me!</h1> <div id="mlLogo"><img src="/ml.png"></img></div>
+      <h1>Remember.Me!</h1> <div id="mlLogo"><img src="/ml.png" alt="logo"></img></div>
       <br></br><h2>By:Gabriel</h2>   
      
     </header> 
