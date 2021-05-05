@@ -49,7 +49,9 @@ const getLocalTodos=()=>{
   return (
     <div className="App">
 <header>
-      <h1>RememberMe!</h1>
+      <h1>RememberMe!</h1> <div id="mlLogo"><img src="/ml.png"></img></div>
+
+     
     </header> 
     <Form 
     inputText={inputText} 
@@ -67,12 +69,7 @@ const getLocalTodos=()=>{
     todos={todos} 
 
     />
-    <ToDoList 
-    filteredTodos={filteredTodos}
-    setTodos={setTodos}  
-    todos={todos} 
-
-    />
+    
     </div>  
     
   );
