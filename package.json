@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mgadesarrollo.github.io/mga-react-todos/",
+  "homepage": "https://mgadesarrollo.github.io/mga-react/",
   "name": "mga-react",
   "version": "0.1.0",
   "private": true,
@@ -74,7 +74,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://$GH_TOKEN@github.com/mgaDesarrollo/mga-react-todos"
+    "deploy": "gh-pages -d build -r https://$GH_TOKEN@github.com/mgaDesarrollo/mga-react"
   },
   "eslintConfig": {
     "extends": [
