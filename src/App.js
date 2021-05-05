@@ -41,7 +41,7 @@ const getLocalTodos=()=>{
     localStorage.setItem('todos',JSON.stringify([]));
 
   }else{
-   let todoLocal = JSON.parse(localStorage.getItem('todo'))
+   let todoLocal = JSON.parse(localStorage.getItem('todos'))
    setTodos(todoLocal);
   }
 }
@@ -61,6 +61,12 @@ const getLocalTodos=()=>{
     
     />   
    
+    <ToDoList 
+    filteredTodos={filteredTodos}
+    setTodos={setTodos}  
+    todos={todos} 
+
+    />
     <ToDoList 
     filteredTodos={filteredTodos}
     setTodos={setTodos}  
