@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mga-react-todos/static/css/main.c488389b.chunk.css",
-    "main.js": "/mga-react-todos/static/js/main.7861cd84.chunk.js",
-    "main.js.map": "/mga-react-todos/static/js/main.7861cd84.chunk.js.map",
+    "main.css": "/mga-react-todos/static/css/main.0b206348.chunk.css",
+    "main.js": "/mga-react-todos/static/js/main.faaa60ba.chunk.js",
+    "main.js.map": "/mga-react-todos/static/js/main.faaa60ba.chunk.js.map",
     "runtime-main.js": "/mga-react-todos/static/js/runtime-main.6aead970.js",
     "runtime-main.js.map": "/mga-react-todos/static/js/runtime-main.6aead970.js.map",
     "static/js/2.c9dad5f3.chunk.js": "/mga-react-todos/static/js/2.c9dad5f3.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.4a6ae17a.chunk.js": "/mga-react-todos/static/js/3.4a6ae17a.chunk.js",
     "static/js/3.4a6ae17a.chunk.js.map": "/mga-react-todos/static/js/3.4a6ae17a.chunk.js.map",
     "index.html": "/mga-react-todos/index.html",
-    "static/css/main.c488389b.chunk.css.map": "/mga-react-todos/static/css/main.c488389b.chunk.css.map",
+    "static/css/main.0b206348.chunk.css.map": "/mga-react-todos/static/css/main.0b206348.chunk.css.map",
     "static/js/2.c9dad5f3.chunk.js.LICENSE.txt": "/mga-react-todos/static/js/2.c9dad5f3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6aead970.js",
     "static/js/2.c9dad5f3.chunk.js",
-    "static/css/main.c488389b.chunk.css",
-    "static/js/main.7861cd84.chunk.js"
+    "static/css/main.0b206348.chunk.css",
+    "static/js/main.faaa60ba.chunk.js"
   ]
 }
