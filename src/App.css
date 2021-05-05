@@ -49,8 +49,8 @@ body {
   min-height: 100vh;
 }
 header {
-  font-size: 2rem;
-  margin: 20px;
+  font-size: 1.5rem;
+  margin: 10px;
 }
 
 header,
@@ -59,13 +59,16 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 10em;
 }
 form input,
 form button {
-  padding: 0.5rem;
+  padding: 0.3rem;
   font-size: 2rem;
   border: none;
-  background: white;
+  background: rgb(219, 219, 219);
 }
 form button {
   color: #c8ff00;
@@ -82,6 +85,7 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .todo-list {
@@ -106,17 +110,16 @@ form button:hover {
   flex: 1;
 }
 
-.trash-btn,
-.complete-btn {
+.trash-btn, .complete-btn {
   background: #eeeeee;
-  color: ##313673;
+  color: #313673;
   border: none;
   padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
 }
 .complete-btn {
-  background: #313673;
+  background: #5c5151;
 }
 .todo-item {
   padding: 0rem 0.5rem;
@@ -134,7 +137,8 @@ form button:hover {
 
 .completed {
   text-decoration: line-through;
-  opacity: 0.5;
+  color: #08ad10;
+  opacity: 0.8;
 }
 
 /*CUSTOM SELECTOR */
@@ -195,9 +199,45 @@ select {
   text-align: center;
   width: 15vh;
   transition: .25s;
-  src: url(https://www.mercadolibre.com.ar/brandprotection/enforcement/images?src=meli-logo.png);
+  
 }
 
 #mlLogo img:hover{
-  scale: 1.25;
+  scale: 1.08;
 }
+#cont_b4b6714dc992bcede1da13b7c3156201{
+  float: right;
+  transition:.1s;
+  position:relative;
+  top:25px;
+  margin: 25px;
+  opacity: .6;
+scale:1.5;
+}
+#cont_b4b6714dc992bcede1da13b7c3156201:hover{
+right: 20px;}
+
+#noticias{
+  float: right;
+  position:absolute;
+transition: .2s;
+top:40vh;
+right: 0vh;}
+
+#noticias:hover{
+  scale: 1.05;}
+
+  #pie{
+    position: relative;
+    top: 38vh;
+    opacity: .6;
+    width: 100%;
+    height: 5vh;
+    color: #313673;
+  }
+  div.todo{
+    transition: .02s;
+  }
+  div.todo:hover{
+    scale: 1.1;
+  }
